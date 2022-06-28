@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+    overflow-x: hidden;
+    background: #F5F5F5;
+    width: 100%;
+}
+.Inter{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    color: #000000;
+}
+.background-image{
+    z-index: -1;
+    width: 100%;
+}
+.background-image > img{
+    width: 100%;
+    height: auto;
+}
+.img1{
+    position: absolute;
+    top: -0.87890625%;
+}
+.img2{
+    position: absolute;
+    top: -10.25391%;
+    left: 8.75%;
+}
