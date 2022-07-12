@@ -1,0 +1,57 @@
+.features-container{
+    display: flex;
+    width: 100%;
+    gap: 3.40278%;
+    padding-top: 124px;
+    padding-bottom: 216px;
+    margin-left: 11.94445%;
+    margin-right: 15.41667%;
+}
+.features-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    height: 607px;
+    width: 21.80556%;
+}
+.features-section > img{
+    width: 100%;
+}
+.padding-8{
+    padding-top: 8px;
+}
+.features-section > .button{
+    height: 65px;
+    width: 189px;
+    background: #454555;
+}
+.features-section > .button > div{
+    display: flex;
+    justify-content: space-between;
+    height: 31px;
+    width: 149px;
+    margin-left: 23px;
+}
+.features-section > .button > div > .button-text{
+    margin: 0;
+    align-self: flex-end;
+}
+.arrow-up-right{
+    width: 24px;
+    height: 23px;
+}
+.arrow-up-right > img{
+    width: 100%;
+}
+.features-section > .big-text{
+    position: absolute;
+    left: -4px;
+}
+.features-section > .img3{
+    position: absolute;
+    top: 108px;
+}
+.features-section > .title{
+    gap: 13px;
+}

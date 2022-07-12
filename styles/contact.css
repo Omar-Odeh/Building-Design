@@ -1,0 +1,69 @@
+.contact-info-container{
+    display: flex;
+    width: 83.61111%;
+    margin-top: 153px;
+}
+.contact-left{
+    width: 27.57475%;
+    margin-top: 8px;
+}
+.contact-middle{
+    width: 36.29568%;
+    margin-top: 2px;
+    margin-left: 2.15947%;
+    margin-right: 2.32558%;
+}
+.contact-right{
+    width: 31.64452%;
+}
+.contact-content{
+    width: 100%;
+}
+.contact-info{
+    display: flex;
+}
+.contact-img{
+    width: 72px;
+    height: 75px;
+}
+.contact-img > img{
+    width: 100%;
+    height: 100%;
+}
+
+.contact-founder{
+
+}
+.gray-a8{
+    font-size: 14px;
+    line-height: 17px;
+    color: #A8A8A8;
+}
+.gray-a0{
+
+}
+.contact-status{
+
+}
+.contact-rating{
+
+}
+.contact-star-icon{
+
+}
+.concentric-circles{
+
+}
+.outer-circle{
+
+}
+.inner-circle{
+
+}
+
+.contact-card{
+
+}
+.contact-text{
+
+}

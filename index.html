@@ -4,6 +4,10 @@
     <link rel="stylesheet" href="styles/common.css" />
     <link rel="stylesheet" href="styles/home.css" />
     <link rel="stylesheet" href="styles/menu.css" />
+    <link rel="stylesheet" href="styles/features.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="styles/services.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,10 +23,10 @@
           <img src="images/real-estate-removebg-preview 1.png" alt="logo" />
         </div>
         <div class="tabs-container">
-          <div class="margin-80"><a href="#home">Home</a></div>
-          <div class="margin-80"><a href="#features">Features</a></div>
-          <div class="margin-90"><a href="#about">About</a></div>
-          <div class="margin-75"><a href="#contact">Contact</a></div>
+          <div class="tab margin-80">Home</div>
+          <div class="tab margin-80">Features</div>
+          <div class="tab margin-90">About</div>
+          <div class="tab margin-75">Contact</div>
           <div class="tab-icon margin-64"><img src="images/search.png" /></div>
           <div class="tab-icon"><img src="images/list.png" /></div>
         </div>
@@ -35,83 +39,279 @@
     <div class="background-image img2">
       <img src="images/vecteezy_abstract-wavy-stri 1.png" />
     </div>
-    <!-- Home -->
-    <div id="home" class="home-container Inter">
-      <div class="cards-container">
-        <div class="cards-content">
-          <div class="rating-container">
-            <div class="home-icon"><img src="images/home.png" /></div>
-            <p>
-              Best Real<br />Estate<br />top rated<br />luxury<br />Building
-              Here<br />
-            </p>
-            <div class="rating">
-              <img src="images/image 1.png" />
-              <div>5.0</div>
+
+    <!-- Main Page -->
+    <div class="main-container">
+      <div class="main-content Inter">
+        <!-- Home -->
+        <div class="home-container">
+          <div class="cards-container">
+            <div class="cards-content">
+              <div class="rating-container">
+                <div class="home-icon"><img src="images/home.png" /></div>
+                <p>
+                  Best Real<br />Estate<br />top rated<br />luxury<br />Building
+                  Here<br />
+                </p>
+                <div class="rating">
+                  <img src="images/image 1.png" />
+                  <div>5.0</div>
+                </div>
+              </div>
+              <div class="building-img-container">
+                <img src="images/Rectangle 2.png" />
+              </div>
+            </div>
+            <div class="founder-info">
+              <div class="pfp">
+                <img src="images/Rectangle 9.png" alt="" />
+              </div>
+              <div>
+                <div class="name">Marina Albert</div>
+                <div class="position">Founder Dubai Mall</div>
+              </div>
             </div>
           </div>
-          <div class="building-img-container">
-            <img src="images/Rectangle 2.png" />
-          </div>
-        </div>
-        <div class="founder-info">
-          <div class="pfp">
-            <img src="images/Rectangle 9.png" alt="" />
-          </div>
-          <div>
-            <div class="name">Marina Albert</div>
-            <div class="position">Founder Dubai Mall</div>
-          </div>
-        </div>
-      </div>
-      <div class="intro-container">
-        <div class="large-text">Real Estate<br />Futuristic Building<br />Designs</div>
-        <div class="margin-5">
-          <div class="gray-text">We Provide</div>
-          <div class="gray-text">Best Deals Best Prices</div>
-          <div class="button">
-            <div class="button-text">Get Started</div>
-            <div class="arrow-icon">
-              <img src="images/arrow-right-circle.png" alt="" />
+          <div class="intro-container">
+            <div class="large-text">
+              Real Estate<br />Futuristic Building<br />Designs
+            </div>
+            <div class="margin-5">
+              <div class="gray-text">We Provide</div>
+              <div class="gray-text">Best Deals Best Prices</div>
+              <div class="button">
+                <div class="button-text">Get Started</div>
+                <div class="arrow-icon">
+                  <img src="images/arrow-right-circle.png" alt="" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
+        <!-- Buy-Sell-Rent Menu -->
+        <div class="bsr-menu">
+          <div class="menu">
+            <div class="menu-item gray-bg width-84">Buy</div>
+            <div class="menu-item width-113">Sell</div>
+            <div class="menu-item width-84">Rent</div>
+          </div>
+          <div class="details">
+            <div class="details-content">
+              <div class="detail locations">
+                <div>
+                  Locations
+                  <div class="gray-text2">Dubai</div>
+                </div>
+              </div>
+              <div class="line"></div>
+              <div class="detail type-of-property">
+                <div>
+                  Type of Property
+                  <div class="gray-text2">Premium</div>
+                </div>
+              </div>
+              <div class="line"></div>
+              <div class="detail budget">
+                <div>
+                  Budget
+                  <div class="gray-text2">$12000</div>
+                </div>
+              </div>
+            </div>
+            <div class="button">Search</div>
+          </div>
+        </div>
+        <!-- Features -->
+        <div class="features-container">
+          <div class="features-section">
+            <div class="title">
+              <div class="h-line">
+                <img src="images/Vector 3.png" />
+              </div>
+              Popular
+            </div>
+            <img src="/images/Rectangle 10.png" />
+          </div>
+          <div class="features-section">
+            <img src="/images/Rectangle 11.png" class="padding-8" />
+            <div class="button">
+              <div>
+                <div class="button-text">Explore All</div>
+                <div class="arrow-up-right">
+                  <img src="images/arrow-up-right.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="features-section">
+            <div class="big-text">Our Popular Residence</div>
+            <img src="/images/Rectangle 12.png" class="img3" />
+          </div>
+        </div>
+        <!-- About -->
+        <div class="about-container">
+          <div class="about-content">
+            <div class="about-left">
+              <div class="title">
+                <div class="h-line">
+                  <img src="images/Vector 3.png" />
+                </div>
+                About Us
+              </div>
+              <div class="big-text">Why Should we?</div>
+              <div class="abt-img1">
+                <img src="images/About 1.png" />
+              </div>
+            </div>
+            <div class="about-right">
+              <div class="abt-img2">
+                <img src="images/About 2.png" />
+              </div>
+              <div class="about-right-text">
+                The printing and typesetting industry.Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s,when an
+                unknown printer took a galley of type and scrambled it to make a
+                type specimen book.
+              </div>
+            </div>
+          </div>
+          <div class="box-container">
+            <div class="box">
+              <div class="box-icon img-home">
+                <img src="images/image 5.png" />
+              </div>
+              <div class="box-title">Sales Booster</div>
+              <div class="box-description">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </div>
+            </div>
+            <div class="box middle-box">
+              <div class="box-icon img-target">
+                <img src="images/image 3.png" />
+              </div>
+              <div class="box-title">The Right Budget</div>
+              <div class="box-description">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </div>
+            </div>
+            <div class="box right-box">
+              <div class="box-icon img-rocket">
+                <img src="images/image 4.png" />
+              </div>
+              <div class="box-title">Mega Sales Offer</div>
+              <div class="box-description">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Services -->
+        <div class="services-container">
+          <div class="services-left">
+            <img src="images/Rectangle 21.png" />
+            <div class="see-more-container">
+              <div class="see-more-button">
+                <div class="right-arrow-icon">
+                  <img src="images/arrow-right.png" />
+                </div>
+              </div>
+              See More
+            </div>
+          </div>
+          <div class="services-right">
+            <div class="title">
+              <div class="h-line">
+                <img src="images/Vector 3.png" />
+              </div>
+              Our Service
+            </div>
+            <div class="big-text">Avalaible Services We Do</div>
+            <div class="services-text">
+              We provide everything</br></br>Rent For House Party</br></br>Co-working space</br></br>
+              Short term meeting
+            </div>
+          </div>
+        </div>
+        <div class="services-info-container">
+          <div class="info-section section1">
+            <div class="big-text2">140K+</div>
+            <div class="info-text">People Choose us</div>
+          </div>
+          <div class="info-section section2">
+            <div class="mid-section">
+              <img src="images/Vector.png" style="width: 12px;">
+              <div class="big-text2">60K</div>
+            </div>
+            <div class="info-text">Good Testimonal</div>
+          </div>
+          <div class="info-section section3">
+            <div class="big-text2">92%</div>
+            <div class="info-text">Level of good Comments</div>
+          </div>     
+        </div>
+        <!-- Contact -->
+        <div class="contact-info-container">
+          <div class="contact-left">
+            <div class="contact-content">
+              <div class="contact-info">
+                <div class="contact-img">
+                  <img src="images/Rectangle 24.png">
+                </div>
+                <div class="contact-founder">
+                  Richard
+                  <div class="gray-a8">Founder AC Mall</div>
+                </div>
+              </div>
+              <div class="contact-status">
+                <div class="contact-rating">
+                  <div class="contact-star-icon">
+                    <img src="images/image 1.png">
+                  </div>
+                  4.8
+                </div>
+                <div class="concentric-circles">
+                  <img class="outer-circle" src="images/Ellipse 2.png">
+                  <img class="inner-circle" src="images/Ellipse 3.png">
+                </div>
+                <div class="gray-a0">Lorem Ipsum is simply</div>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-img">
+                <img src="images/Rectangle 25.png">
+              </div>
+              <div class="contact-text">
+                Lorem Ipsum
+                <div class="gray-a8">The first line</div>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-img">
+                <img src="images/Rectangle 26.png">
+              </div>
+              <div class="contact-text">
+                Lorem Ipsum
+                <div class="gray-a8">The first line</div>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-img">
+                <img src="images/Rectangle 27.png">
+              </div>
+              <div class="contact-text">
+                Lorem Ipsum
+                <div class="gray-a8">The first line</div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-middle"></div>
+          <div class="contact-right"></div>
+        </div>
+        <div style="height: 50px"></div>
       </div>
     </div>
-    <!-- Buy-Sell-Rent Menu -->
-    <div class="bsr-menu Inter">
-      <div class="menu">
-        <div class="menu-item gray-bg width-84">Buy</div>
-        <div class="menu-item width-113">Sell</div>
-        <div class="menu-item width-84">Rent</div>
-      </div>
-      <div class="details">
-        <div class="details-content">
-          <div class="detail locations">
-            <div>
-              Locations
-            <div class="gray-text2">Dubai</div>
-            </div>
-          </div>
-          <div class="line"></div>
-          <div class="detail type-of-property">
-            <div>
-              Type of Property
-              <div class="gray-text2">Premium</div>
-            </div>
-          </div>
-          <div class="line"></div>
-          <div class="detail budget">
-            <div>
-              Budget
-              <div class="gray-text2">$12000</div>
-            </div>
-          </div>
-        </div>
-        <div class="button">Search</div>
-      </div>
-    </div>
-    <!-- Features -->
-    
   </body>
 </html>

@@ -40,9 +40,8 @@
   font-size: 14px;
   line-height: 17px;
 }
-.tabs-container > div > a {
-  text-decoration: none;
-  color: #000000;
+.tab:hover{
+  cursor: pointer;
 }
 .tab-icon > img{
   height: 100%;

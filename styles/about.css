@@ -1,0 +1,126 @@
+.about-container{
+    display: flex;
+    position: relative;
+    height: 1024px;
+    width: 100%;
+    padding-top: 106px;
+    padding-left: 8.61111%;
+    background: #F7FBFB;
+}
+.about-content{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 82.5%;
+    height: 623px;
+}
+.about-left{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 49.07407%;
+}
+.about-left > .big-text{
+    margin-top: 27px;
+}
+.about-left > .title{
+    position: absolute;
+    top: -7px;
+    left: -2px;
+    gap: 15px;
+    height: 26px;
+}
+.abt-img1{
+    width: 100%;
+    justify-items: flex-end;
+}
+.abt-img1 > img{
+    width: 100%;
+}
+.about-right{
+    display: flex;
+    flex-direction: column;
+    width: 48.14815%;
+}
+.abt-img2{
+    width: 94.40559%;
+    justify-items: flex-end;
+}
+.abt-img2 > img{
+    width: 100%;
+}
+.about-right-text{
+    width: 99.12587%;
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #A0A0A0
+}
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    height: 424px;
+    width: 78.40278%;
+    max-width: 1129px;
+    bottom: -235px;
+    left: 136px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 71.69811%;
+    width: 28.07794%;
+    padding-left: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
+}
+.middle-box{
+    margin-top: 5.31444%;
+}
+.right-box{
+    align-self: flex-end;
+}
+.box-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    margin-top: 43px;
+    background: #33374E;
+}
+.img-home > img{
+    width: 73.21429%;
+    height: 73.21429%;
+}
+.img-target > img{
+    width: 69.64286%;
+    height: 69.64286%;
+}
+.img-rocket > img{
+    width: 114.28571%;
+    height: 114.28571%;
+    position: absolute;
+    left: 9px;
+    bottom: 8px;
+}
+.img-rocket{
+    position: relative;
+}
+.box-title{
+    height: 9.21053%;
+    width: 80.7571%;
+    margin-top: 15px;
+    font-size: 30px;
+    line-height: 36px;
+}
+.box-description{
+    height: 28.94737%;
+    width: 91.48265%;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #A0A0A0;
+}

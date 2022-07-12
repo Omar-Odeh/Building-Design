@@ -52,7 +52,7 @@
     margin-top: 17px;
 }
 .line{
-    width: 0.1px;
+    width: 0.5px;
     border-radius: 0px;
     background: linear-gradient(180deg, #000000 -164.62%, rgba(157, 155, 155, 0) 289.15%);
     border: 1px solid;
@@ -75,9 +75,9 @@
     width: 24.76635%;
 }
 .details > .button{
+    justify-content: center;
     margin: 0% 3.07549% 0% 0%;
     height: 60px;
     width: 180px;
-    border-radius: 0px;
-    justify-content: center;
+    background: #444444;
 }
